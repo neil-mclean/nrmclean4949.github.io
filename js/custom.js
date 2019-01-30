@@ -18,11 +18,11 @@
     // ABOUT SLIDER
     $('body').vegas({
         slides: [
-            { src: 'trump.jpg' },
+            { src: 'slide-image01.jpg' },
             { src: 'pelosi.jpg' }
         ],
         timer: false,
-        transition: [ 'zoomOut', ]
+        transition: false
     });
 
 })(jQuery);
